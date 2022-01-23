@@ -6,7 +6,7 @@ import Exp from "./Exp";
 import Hobbies from "./Hobbies";
 import Menu from "./Menu";
 import Stack from "./Stack";
-import { UserContext } from "../MyContext";
+import { UserContext } from "../UserContext";
 
 
 

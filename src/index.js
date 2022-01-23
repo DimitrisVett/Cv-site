@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {MyContext} from './MyContext';
+import {UserContextProvider} from './UserContext';
 
 
 ReactDOM.render(
   
-    <MyContext>
+    <UserContextProvider>
     <App />
-    </MyContext>,
+    </UserContextProvider>,
   
   document.getElementById('root')
 );
