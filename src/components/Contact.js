@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function  Contact(){
-    return <div> contact </div>;
+  console.log("blabla");
+    return <div> email + phone 
+      + address 
+      + Github !!! (url "gia afto to project")
+      plz check out my LINKEDIN! (icon)  
+      </div>;
   }
