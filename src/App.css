@@ -60,7 +60,7 @@ nav{
   position: absolute;
   top:0;
   width:100vw;
-  height: 6vh;
+  min-height: 6vh;
   background-color: white;
   justify-content: center;
   box-shadow: 0px 16px 15px -5px rgba(0,0,0,0.64);
@@ -82,9 +82,11 @@ p{
   margin-top: 10px;
 }
 .main{
-  min-height: 500px;
-  width: 600px;
-  background-color: rgb(253, 223, 241);
+  max-height: 75vh;
+  min-height: 40vh;
+  max-width: 60vh;
+  min-width: 40vh;
+  background-color: rgba(253, 223, 241, 0.9);
   padding: 40px;
   box-shadow: -6px 16px 17px 9px rgba(0,0,0,0.93);
   border-radius: 5px;
@@ -92,6 +94,7 @@ p{
   text-align: justify;
   list-style: inside;
   font-size: 17px;
+  overflow: auto;
 }
 
 .btn:hover {
@@ -120,11 +123,12 @@ img{
 }
 ul {
   list-style: none;
-  margin-top: 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 li{
 
-  margin-left: 40px;
+  margin-left:20px;
  
 }
 h5{
@@ -138,3 +142,25 @@ span{
   margin-top: 5px;
   margin-right: 40px;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d742eb #f1e0eb;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f1e0eb;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d742eb;
+    border-radius: 10px;
+    border: 2px none #ffffff;
+  }

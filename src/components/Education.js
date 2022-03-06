@@ -10,12 +10,11 @@ Sep 2019 - Dec 2019</h5>
 <li>▪ Learnt programming fundamentals such as debugging, the command line, and GitHub. </li>
 <li>▪Attended the Berlin bootcamp, along with a team of web developers in training, and created interactive web apps and animations using Vue.js , React and some libraries</li>
 </ul>
-
 <h3>Public Vocational Training Institute of Thessaloniki </h3>
 <h5>Certification of Studies, Web Design-Software Developing- Video Game Design <br/>
 Sep 2015 - Jun 2017
 </h5>
-Modules: 
+<h3>Modules: </h3>
 <ul>
 <li>▪ C / C++</li>
 <li>▪ HTML / CSS</li>
