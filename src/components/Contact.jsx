@@ -14,7 +14,7 @@ export default function  Contact(){
             <li> <span><FontAwesomeIcon icon={faPhone} /> </span>015786432991</li>
             <li> <span><FontAwesomeIcon icon={faLinkedin} /> </span> <a href="https://www.linkedin.com/in/dimitris-vettas/"  target="_blank">My LinkedIn</a> </li>
             <li> <span><FontAwesomeIcon icon={faGithub} /></span> <a href="https://github.com/DimitrisVett"  target="_blank">My Github</a></li>
-            <li> <span><FontAwesomeIcon icon={faMapMarked} /> </span>Friedelstrasse (JA ! Wir sind Nachbarn! )</li>
+            <li> <span><FontAwesomeIcon icon={faMapMarked} /> </span>Sonnenalle</li>
                          
         </ul>
       </div>
